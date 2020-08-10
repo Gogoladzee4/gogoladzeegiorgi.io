@@ -1,0 +1,83 @@
+button {
+    display: inline-block;
+    margin: 20px;
+    font-size: 30px;
+    background-color: rgb(118, 0, 197);
+    transition: 0.5s;
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+    font-style: italic;
+    text-size-adjust: 40px;
+    border: 4px;
+    outline: none;
+    margin: 5px;
+    padding: 0px;
+}
+h1{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover {
+    transform: translateY(-8px);
+}
+button  a {
+    text-decoration: none;
+    color: rgb(94, 0, 202);
+    transition: 0.5s;
+}
+button a:hover {
+    color: rgb(19, 9, 165);
+}
+.ico{
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+    padding: 3px;
+}
+h4{
+    font-size: 15px;
+    font-style: italic;
+}
+.shesaxeb{
+    width: 365px;
+    height: 280px;
+}
+body{
+    background-image: url(image/go.jpg);
+}
+.test{
+    width: 400px;
+}
+.profile{
+    width: 90px;
+    height: 80px;
+}
+.face{
+    width: 40px;
+    height: 40px;
+}
+p{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    height: 10px;
+}
+.face {
+    display: inline-block;
+    margin: 2px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.face  a {
+    text-decoration: none;
+    color: rgb(94, 0, 202);
+    transition: 1s;
+}
+.face a:hover {
+    color: rgb(94, 0, 202);
+}
+.face:hover {
+    transform: translateY(-5px);
+}

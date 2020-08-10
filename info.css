@@ -1,0 +1,121 @@
+button {
+    display: inline-block;
+    margin: 20px;
+    font-size: 30px;
+    background-color: rgb(38, 12, 184);
+    transition: 0.5s;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    font-style: italic;
+    border: 4px;
+    outline: none;
+    margin: 8px;
+    padding: 0px;
+}
+.ttt{
+    font-size: 15px;
+    width: 350px;
+    height: 210px;
+    background-color: rgb(85, 9, 172);
+    margin: 7px;
+    padding: 0px;
+}
+.back{
+    width:100px;
+    height: 30px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+.back:hover {
+    transform: translateY(-2px);
+}
+button:hover {
+    transform: translateY(-7px);
+}
+button  a {
+    text-decoration: none;
+    color: rgb(94, 0, 202);
+    transition: 1s;
+}
+button a:hover {
+    color: rgb(34, 0, 224);
+}
+.ico{
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+    padding: 3px;
+}
+h4{
+    font-size: 15px;
+    font-style: italic;
+}
+.shesaxeb{
+    width: 350px;
+    height: 300px;
+}
+body{
+    background-image: url(image/go.jpg)
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.nam{
+    width: 300px;
+    height: 130px;
+}
+.test{
+    width: 400px;
+}
+.profile{
+    width: 90px;
+    height: 80px;
+}
+.face{
+    width: 40px;
+    height: 40px;
+}
+p{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    height: 10px;
+}
+.face {
+    display: inline-block;
+    margin: 2px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.face  a {
+    text-decoration: none;
+    color: rgb(94, 0, 202);
+    transition: 1s;
+}
+.face a:hover {
+    color: rgb(94, 0, 202);
+}
+.face:hover {
+    transform: translateY(-5px);
+}
+h3{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.nam{
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.test{
+    max-width: 500px;
+    height: 500px;
+    image: url(image/back.gif)
+}
