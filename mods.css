@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(65, 65, 65);
+}
+.logo-container{
+    width: 140px;
+    height: 30px;
+}
+.logo{
+    width: 100%;
+    margin-top: -40px;
+}
+.searchbox{
+   margin-top: -30px;
+   margin-right: 120px;
+}
+.srch{
+    width: 240px;
+    height: 30px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Bradley Hand, cursive;
+}
+.search-button{
+   background: linear-gradient(to right, #5900cb, #2b07f1);
+    margin-right: 100px;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-top-left-radius: -50%;
+}
+.variantebi{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-right: 70px;
+    font-weight: 900;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.variantebi:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+.navigation-variantebi{
+    margin-top: -15px;
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    background:#333333fd;
+}
+.mod-cards{
+    width: 90%;
+    background: rgba(68, 68, 68, 0.514);
+    height: 200px;
+    border: solid 1px rgb(111, 1, 185);
+    border-radius: 5px; 
+}
+.mod-image{
+margin-top: 10px;
+        width: 170px;
+        height: 150px;
+        margin-left: 30px;
+}
+.texts-cont{
+    margin-top: -180px;
+    color: white;
+    font-family: Bradley Hand, cursive;
+}
+.text-logo{
+    font-size:25px;
+}
+.download-button{
+    width: 110px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    font-family:  Bradley Hand, cursive;
+    color: white;
+    background: linear-gradient(to right, #5900cb, #2b07f1);
+    margin-top: -5px;
+}
+.description{
+    font-size: 15px;
+}
+@media all and (max-width: 550px){
+    .navigation{
+        width: 100%;
+        height: 40px;
+    }
+    .logo-container{
+        width: 120px;
+        height: 20px;
+    }
+    .logo{
+        display: none;
+    }
+    .srch{
+        height: 25px;
+        width: 270px;
+    }
+    .search-button{
+        width: 50px;
+        height: 25px;
+    }
+    .searchbox{
+        margin-right: 60px;
+        margin-top: -30px;
+    }
+    .variantebi{
+        display: none;
+    }
+    .navigation-variantebi{
+      display: inline-block;
+    }
+    .variantebii2{
+        font-size: 16px;
+        color: white;
+        display: inline-block;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        margin-right: 10px;
+    }
+    .download-button{
+        width: 100px;
+        height: 32px;
+font-size: 11px;
+margin-top: 1%;
+    }
+    .mod-cards{
+        height: 300px;
+        text-align: center;
+    }
+    .mod-image{
+        margin-left: 50px;
+        margin-right: 0px;
+        width: 70%;
+    }
+    .text{
+       font-size: 25px;
+       margin-top: 120px;
+    }
+    .main{
+        height: auto;
+    }
+}
